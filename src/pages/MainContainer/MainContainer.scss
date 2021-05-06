@@ -1,0 +1,53 @@
+.main-content {
+        padding: 180px;
+        text-align: center;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 100px;
+            line-height: 120px;
+            letter-spacing: 0;
+            font-weight: 200;
+            text-align: center;
+            color: #fff;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 40px;
+                line-height: 50px;
+                padding-top: 50px;
+            }
+        }
+
+        .lead {
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: 300;
+            letter-spacing: 0.1px;
+            color: #fff;
+            margin: 0 auto;
+            padding-left: 60px;
+            padding-right: 60px;
+            width: 624px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 10px;
+                line-height: 20px;
+                padding-left: 0;
+                padding-right: 0;
+                padding: 15px 0 0 0;
+                width: auto;
+            }
+        }
+
+        .content {
+            margin-top: 50px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                margin-top: 0;
+                padding-top: 35px;
+            }
+        }
+    }

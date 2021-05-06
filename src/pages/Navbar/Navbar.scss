@@ -1,0 +1,39 @@
+
+
+.background-1 {
+    background-image: url("./../../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 900px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+        background-size: 100% 100%;
+        min-height: 500px;
+    }
+
+    .navbar-brand {
+        color: #d9f0ff;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 25px;
+        }
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+
+        .nav-nav {
+            color: #d9f0ff;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            padding: 30px;
+        }
+    }
+}
+
