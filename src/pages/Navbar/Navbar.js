@@ -1,16 +1,17 @@
-import React from 'react';
+import React from "react";
 import "./Navbar.scss";
 
-import MainContainer from "../MainContainer/MainContainer"
-
+import MainContainer from "../MainContainer/MainContainer";
 
 export default function Navbar() {
-    return (
-            <div className="background-1">
+  return (
+    <div className="background-1">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">Landings</a>
+            <a className="navbar-brand" href="#">
+              Landings
+            </a>
             <button
               className="navbar-toggler"
               type="button"
@@ -24,10 +25,18 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
-                <a className="nav-link nav-nav" href="#">WORK</a>
-                <a className="nav-link nav-nav" href="#">FEATURES</a>
-                <a className="nav-link nav-nav" href="#">BLOG</a>
-                <a className="nav-link nav-nav" href="#">CONTACT US</a>
+                <a className="nav-link nav-nav" href="#">
+                  WORK
+                </a>
+                <a className="nav-link nav-nav" href="#">
+                  FEATURES
+                </a>
+                <a className="nav-link nav-nav" href="#">
+                  BLOG
+                </a>
+                <a className="nav-link nav-nav" href="#">
+                  CONTACT US
+                </a>
               </div>
             </div>
           </div>
@@ -35,5 +44,5 @@ export default function Navbar() {
       </div>
       <MainContainer />
     </div>
-    )
+  );
 }

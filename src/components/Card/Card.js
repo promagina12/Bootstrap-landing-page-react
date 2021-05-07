@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Card.scss"
 import CardImages from "../../components/CardImages/CardImages"
 
 

@@ -1,0 +1,41 @@
+.features {
+    background: #fafafa;
+    .container {
+        text-align: center;
+    }
+
+    .pb2 {
+        font-size: 35px;
+        font-weight: 200;
+        line-height: 42px;
+        letter-spacing: 0;
+        padding-top: 50px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 25px;
+        }
+    }
+
+    .pbc {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        width: 771px;
+        margin: 0 auto;
+        padding-bottom: 60px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 10px;
+            line-height: 25px;
+            width: auto;
+            padding-bottom: 80px;
+        }
+    }
+
+    .row {
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            padding-top: 0 !important;
+        }
+    }
+}   

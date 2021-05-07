@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Features.scss"
 
 
 import image1 from "../../images/umbrella.png";
@@ -13,9 +14,9 @@ import Card from "../../components/Card/Card"
 export default function Features() {
     return (
         <section className="features">
-      <div className="container py-5" id="featured-3">
-        <h2 className="pb-2">Lorem ipsum dolor sit</h2>
-        <p className="pb-c">
+      <div className="container" id="featured-3">
+        <h2 className="pb2">Lorem ipsum dolor sit</h2>
+        <p className="pbc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
           accumsan ornare. Phasellus tristique ullamcorper luctus. Nunc varius
           ullamcorper felis. Nulla nibh ipsum, rutrum.

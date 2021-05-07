@@ -1,0 +1,57 @@
+.blog {
+    background-image: url("/images/background-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    .container {
+        height: 601px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            height: 400px;
+        }
+    }
+
+    .play {
+        text-align: center;
+        padding-top: 217px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            padding-top: 80px;
+        }
+    }
+
+    .content {
+        text-align: center;
+        padding-top: 30px;
+
+        h2 {
+            font-size: 35px;
+            font-weight: 200;
+            line-height: 42px;
+            letter-spacing: 0;
+            color: #ffffff;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 25px;
+            }
+        }
+
+        .lead {
+            font-size: 16px;
+            font-weight: 300;
+            width: 771px;
+            letter-spacing: 0.1px;
+            line-height: 25px;
+            color: #ffffff;
+            margin: 0 auto;
+            padding: 45px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 10px;
+                width: auto;
+                padding: 15px;
+            }
+        }
+    }
+}
