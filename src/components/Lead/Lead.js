@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Lead.scss"
 
-import Button from "../../components/Button/Button";
+import MainButton from "../Button/MainButton";
 
 export default function Lead() {
     return (
@@ -11,9 +11,9 @@ export default function Lead() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices
           accumsan ornare. Phasellus tristique ullamcorper luctus.
         </p>
-        <p className="lead content">
-          <Button />
-        </p>
+        <>
+          <MainButton />
+        </>
       </div>
     );
 }

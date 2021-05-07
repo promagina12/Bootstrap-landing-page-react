@@ -26,30 +26,31 @@
     .content {
         margin-top: 50px;
     }
-}
 
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+            padding-top: 50px;
+        }
+
+        .lead {
+            font-size: 10px;
+            line-height: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding: 15px 0 0 0;
+            width: auto;
+        }
+
+        .content {
+            margin-top: 0;
+            padding-top: 35px;
+        }
+    }
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
     .main-content {
-        padding: 0;
-    }
-
-    h1 {
-        font-size: 40px;
-        line-height: 50px;
-        padding-top: 50px;
-    }
-
-    .lead {
-        font-size: 10px;
-        line-height: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding: 15px 0 0 0;
-        width: auto;
-    }
-
-    .content {
-        margin-top: 0;
-        padding-top: 35px;
+        padding: 0px;
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainContainer.scss";
-import Button from "../../components/Button/Button";
+import MainButton from "../../components/Button/MainButton";
 
 export default function MainContainer() {
   return (
@@ -12,9 +12,7 @@ export default function MainContainer() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <p className="content">
-            <Button />
-          </p>
+          <MainButton />
         </main>
       </div>
     </div>
